@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Cafe Crunch Restaurant</title>
+  </head>
+  <body>
+    <div class="grid grid-cols-1">
+      <nav class="bg-slate-900 border-gray-200 dark:bg-gray-900">
+        <div
+          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+        >
+          <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <span
+              class="self-center text-2xl font-semibold whitespace-nowrap hover:text-white text-cyan-400 font-serif text-bold animate-bounce"
+              >Cafe Crunch</span
+            >
+          </a>
+          <button
+            data-collapse-toggle="navbar-default"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-default"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto animate-bounce " id="navbar-default">
+            <ul
+              class="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-cyan-400 hover:text-white"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-cyan-400 hover:text-white"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-cyan-400 hover:text-white"
+                  >Projects</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-cyan-400 hover:text-white"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="grid sm:grid-cols-2 gap-4 bg-[url('./img/b13.jpg')] min-h-lvh">
+      <div class="h-95 sm:h-125 sm:mt-20 mt-8">
+        <h1
+          class="mt-10 m-4 text-2xl sm:text-xl font-sans font-bold text-center text-cyan-400"
+        >
+          Today's speacial deal..<br /><span class="sm:text-6xl text-yellow-500 "
+            >WE SERVE ONLY <br />
+            DELICIOUS FOOD</span
+          >
+          <br /><span class="text-white text-2xl sm:text-xl"
+            >Join us at Cafe Crunch for a culinary journey <br />
+            that will leave you wanting more...</span
+          >
+        </h1>
+        <button
+          class="bg-red-600 text-white p-3 sm:w-70 w-full sm:ml-38 rounded-full cursor-pointer hover:bg-red-400 text-2xl font-serif hover:text-white sm:mt-0 mt-12"
+        >
+          VIEW OUR MENU
+        </button>
+      </div>
+      <img class="sm:ml-20 transform transition duration-1600 hover:-rotate-y-180 cursor-pointer animate-pulse" src="./img/b22.png" alt="">
+    </div>
+
+<!--  -->
+<h1 class="text-center text-4xl font-serif font-bold p-8 bg-black text-cyan-400 mt-2">ORDER NOW</h1>
+
+    <div class="bg-black grid sm:grid-cols-4 grid-cols-2 gap-4 mt-2">
+      <div class="flex items-center justify-center min-h-screen">
+        <div
+          class="bg-white rounded-xl shadow-lg overflow-hidden w-full max-w-sm transition hover:shadow-2xl"
+        >
+          <!-- Food Image -->
+          <div class="relative">
+            <img
+              src="./img/b7.png"
+              alt="Food Image"
+              class="w-full h-52 object-cover hover:scale-108 transition ease-in cursor-pointer"
+            />
+            <span
+              class="absolute top-2 left-2 bg-green-600 text-white text-xs font-semibold px-3 py-1 rounded-full shadow"
+            >
+              ⭐ 4.9 (2.2K)
+            </span>
+          </div>
+
+          <!-- Content -->
+          <div class="p-5">
+            <!-- Restaurant Name -->
+            <p class="text-sm text-gray-500 font-medium">— Cafe Crunch</p>
+
+            <!-- Food Name -->
+            <h2 class="text-xl font-semibold text-gray-900 mt-1">
+              Classic Grilled Hot Dog
+            </h2>
+
+            <!-- Description -->
+            <p class="text-gray-600 text-sm mt-2">
+              Hot Dog, Food, Mustard royalty-free stock illustration. Free for
+              use & download. .
+            </p>
+
+            <!-- Orders and Quantity -->
+            <div class="flex items-center justify-between mt-4">
+              <p class="text-md text-gray-900 font-semibold">300 Rs/-</p>
+
+              <div class="flex items-center space-x-2">
+                <button
+                  class="bg-gray-200 hover:bg-gray-300 text-gray-800 w-8 h-8 rounded-md flex items-center justify-center text-lg font-bold"
+                >
+                  −
+                </button>
+                <span class="text-gray-800 font-medium">1</span>
+                <button
+                  class="bg-gray-200 hover:bg-gray-300 text-gray-800 w-8 h-8 rounded-md flex items-center justify-center text-lg font-bold"
+                >
+                  +
+                </button>
+              </div>
+            </div>
+
+            <!-- Order Button -->
+            <button
+              class="mt-5 w-full bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-2.5 rounded-lg shadow-md transition cursor-pointer"
+            >
+              Place Order
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-center min-h-screen sm:">
+        <div
+          class="bg-white rounded-xl shadow-lg overflow-hidden w-full max-w-sm transition hover:shadow-2xl"
+        >
+          <!-- Food Image -->
+          <div class="relative">
+            <img
+              src="./img/b17.png"
+              alt="Food Image"
+              class="w-full h-47 sm:ml-6 sm:w-58 sm:h-52 sm:scale-125 object-cover hover:scale-140 transition ease-in cursor-pointer"
+            />
+            <span
+              class="absolute top-2 left-2 bg-green-600 text-white text-xs font-semibold px-3 py-1 rounded-full shadow"
+            >
+              ⭐ 4.8 (3.2K)
+            </span>
+          </div>
+
+          <!-- Content -->
+          <div class="p-5">
+            <!-- Restaurant Name -->
+            <p class="text-sm text-gray-500 font-medium">— Cafe Crunch</p>
+
+            <!-- Food Name -->
+            <h2 class="text-xl font-semibold text-gray-900 mt-1">
+              Classic Beef Burgur
+            </h2>
+
+            <!-- Description -->
+            <p class="text-gray-600 text-sm mt-2">
+              Milk, Cream, Water, Sodium Citrate, Salt, Cheese Cultures, Citric Acid, Enzymes, Soy Lecithin, Color Added.
+            </p>
+
+            <!-- Orders and Quantity -->
+            <div class="flex items-center justify-between mt-4">
+              <p class="text-md text-gray-900 font-semibold">450 Rs/-</p>
+
+              <div class="flex items-center space-x-2">
+                <button
+                  class="bg-gray-200 hover:bg-gray-300 text-gray-800 w-8 h-8 rounded-md flex items-center justify-center text-lg font-bold"
+                >
+                  −
+                </button>
+                <span class="text-gray-800 font-medium">1</span>
+                <button
+                  class="bg-gray-200 hover:bg-gray-300 text-gray-800 w-8 h-8 rounded-md flex items-center justify-center text-lg font-bold"
+                >
+                  +
+                </button>
+              </div>
+            </div>
+
+            <!-- Order Button -->
+            <button
+              class="mt-5 w-full bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-2.5 rounded-lg shadow-md transition cursor-pointer"
+            >
+              Place Order
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-center min-h-screen">
+        <div
+          class="bg-white rounded-xl shadow-lg overflow-hidden w-full max-w-sm transition hover:shadow-2xl"
+        >
+          <!-- Food Image -->
+          <div class="relative">
+            <img
+              src="./img/b11.png"
+              alt="Food Image"
+              class="w-full h-52 sm:scale-88 object-cover hover:scale-105 transition ease-in cursor-pointer"
+            />
+            <span
+              class="absolute top-2 left-2 bg-green-600 text-white text-xs font-semibold px-3 py-1 rounded-full shadow"
+            >
+              ⭐ 4.7 (3.3K)
+            </span>
+          </div>
+
+          <!-- Content -->
+          <div class="p-5">
+            <!-- Restaurant Name -->
+            <p class="text-sm text-gray-500 font-medium">— Cafe Crunch</p>
+
+            <!-- Food Name -->
+            <h2 class="text-xl font-semibold text-gray-900 mt-1">
+              Classic Seekh Kabab
+            </h2>
+
+            <!-- Description -->
+            <p class="text-gray-600 text-sm mt-2">
+              grilled meat (likely chicken, lamb, or beef) and vegetables
+              threaded onto skewers. .
+            </p>
+
+            <!-- Orders and Quantity -->
+            <div class="flex items-center justify-between mt-4">
+              <p class="text-md text-gray-900 font-semibold">900 Rs/-</p>
+
+              <div class="flex items-center space-x-2">
+                <button
+                  class="bg-gray-200 hover:bg-gray-300 text-gray-800 w-8 h-8 rounded-md flex items-center justify-center text-lg font-bold"
+                >
+                  −
+                </button>
+                <span class="text-gray-800 font-medium">1</span>
+                <button
+                  class="bg-gray-200 hover:bg-gray-300 text-gray-800 w-8 h-8 rounded-md flex items-center justify-center text-lg font-bold"
+                >
+                  +
+                </button>
+              </div>
+            </div>
+
+            <!-- Order Button -->
+            <button
+              class="mt-5 w-full bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-2.5 rounded-lg shadow-md transition cursor-pointer"
+            >
+              Place Order
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-center min-h-screen">
+        <div
+          class="bg-white rounded-xl shadow-lg overflow-hidden w-full max-w-sm transition hover:shadow-2xl"
+        >
+          <!-- Food Image -->
+          <div class="relative">
+            <img
+              src="./img/b12.png"
+              alt="Food Image"
+              class="w-full h-58 sm:w-58 sm:h-52 sm:ml-6 object-cover hover:scale-120 transition ease-in cursor-pointer"
+            />
+            <span
+              class="absolute top-2 left-2 bg-green-600 text-white text-xs font-semibold px-3 py-1 rounded-full shadow"
+            >
+              ⭐ 4.7 (2.2K)
+            </span>
+          </div>
+
+          <!-- Content -->
+          <div class="p-5">
+            <!-- Restaurant Name -->
+            <p class="text-sm text-gray-500 font-medium">— Cafe Crunch</p>
+
+            <!-- Food Name -->
+            <h2 class="text-xl font-semibold text-gray-900 mt-1">
+              Classic French Fires & Fish
+            </h2>
+
+            <!-- Description -->
+            <p class="text-gray-600 text-sm mt-2">
+              Hot Dog, Food, Mustard royalty-free stock illustration. Free for
+              use & download. .
+            </p>
+
+            <!-- Orders and Quantity -->
+            <div class="flex items-center justify-between mt-4">
+              <p class="text-md text-gray-900 font-semibold">800 Rs/-</p>
+
+              <div class="flex items-center space-x-2">
+                <button
+                  class="bg-gray-200 hover:bg-gray-300 text-gray-800 w-8 h-8 rounded-md flex items-center justify-center text-lg font-bold"
+                >
+                  −
+                </button>
+                <span class="text-gray-800 font-medium">1</span>
+                <button
+                  class="bg-gray-200 hover:bg-gray-300 text-gray-800 w-8 h-8 rounded-md flex items-center justify-center text-lg font-bold"
+                >
+                  +
+                </button>
+              </div>
+            </div>
+
+            <!-- Order Button -->
+            <button
+              class="mt-5 w-full bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-2.5 rounded-lg shadow-md transition cursor-pointer"
+            >
+              Place Order
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="gird grid-cols-1 bg-black">
+  <div>
+    <img src="./img/b26.jpg" alt="">
+  </div>
+
+<h1 class="text-center sm:text-4xl text-2xl font-serif font-bold p-8 bg-black text-cyan-400 mt-2">JOY WITH ICE-CREAM</h1>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4 bg-black">
+    <div class=" min-h-[100px] border-1 border-white">
+      <img class="sm:mt-16 hover:scale-120 transition ease-in sm:scale-y-115 cursor-pointer" src="./img/ice1.png" alt="">
+    </div>
+    <div class=" min-h-[100px] border-1 border-white ">
+      <img class="hover:scale-120 transition ease-in cursor-pointer" src="./img/ice2.png" alt="">
+    </div>
+    <div class=" min-h-[100px] border-1 border-white">
+      <img class="sm:scale-y-105 sm:mt-4 hover:scale-120 transition ease-in cursor-pointer" src="./img/ice3.png" alt="">
+    </div>
+  </div>
+
+  <div>
+    <h1 class="text-center sm:text-4xl text-2xl font-serif font-bold p-8 bg-black text-cyan-400 mt-2">WE PROVIDES FRESH & TASTY FOOD</h1>
+  </div>
+
+    <div class="bg-black">
+    <p class="text-white sm:text-3xl m-2 sm:m-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere perspiciatis nesciunt quisquam delectus hic accusantium vero saepe porro, enim at similique ad harum error veniam, qui atque aut, laborum natus?
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere perspiciatis nesciunt quisquam delectus hic accusantium vero saepe porro, enim at similique ad harum error veniam, qui atque aut, laborum natus?
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere perspiciatis nesciunt quisquam delectus hic accusantium vero saepe porro...
+    </p>
+
+    <ul class="text-2xl text-white text-center">
+      <li>SPICY</li>
+      <li>SWEETS</li>
+      <li>FIRES</li>
+      <li>COLD DRINKS</li>
+    </ul> 
+    
+    <button
+          class="bg-cyan-400 mb-12 p-3 sm:w-70 w-full  rounded-full cursor-pointer hover:bg-blue-400 text-2xl font-serif hover:text-white sm:mt-0 mt-6 sm:mt-6 sm:ml-115"
+        >
+          Learn More
+        </button>
+  </div>
+  </div>
+<!-- reviews -->
+ <h1 class="text-center sm:text-4xl text-2xl font-serif font-bold p-8 bg-black text-cyan-400 mt-2">WE HAVE SOME REVIEWS</h1>
+  <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4 bg-black">
+<div class=" min-h-[100px]"><div class="border-1 border-white max-w-sm">
+    <div class="shadow-lg rounded overflow-hidden">
+        <img class="w-95 h-85 rounded-full" src="./img/m2.webp">
+        <div class="bg-white p-12">
+            <p class="font-light text-xl italic font-gray-800">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+            <p class="mt-4 font-light text-sm text-gray-500">Customer Support Pro</p>
+            <p class="mt-1 font-semibold text-sm text-gray-900">⭐⭐⭐⭐⭐</p>
+        </div>
+    </div>
+</div></div>
+<div class=" min-h-[100px]"><div class="border-1 border-white max-w-sm">
+    <div class="shadow-lg rounded overflow-hidden">
+        <img class="w-95 h-85 rounded-full" src="./img/m1.png">
+        <div class="bg-white p-12">
+            <p class="font-light text-xl italic font-gray-800">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+            <p class="mt-4 font-light text-sm text-gray-500">Customer Support Pro</p>
+            <p class="mt-1 font-semibold text-sm text-gray-900">⭐⭐⭐⭐⭐</p>
+        </div>
+    </div>
+</div></div>
+<div class=" min-h-[100px]"><div class="border-1 border-white max-w-sm">
+    <div class="shadow-lg rounded overflow-hidden">
+        <img class="w-95 h-85 rounded-full" src="./img/m4.jpg">
+        <div class="bg-white p-12">
+            <p class="font-light text-xl italic font-gray-800">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+            <p class="mt-4 font-light text-sm text-gray-500">Customer Support Pro</p>
+            <p class="mt-1 font-semibold text-sm text-gray-900">⭐⭐⭐⭐⭐</p>
+        </div>
+    </div>
+</div></div>
+  </div>
+
+</div>
+
+<footer class="text-white px-8 py-6 bg-gray-800  sm:ml-0">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
+        <div class="mb-8 md:mb-0">
+            <h3 class="text-lg font-bold mb-4">Example</h3>
+            <p class="mb-2">Example</p>
+            <p class="mb-2">123 Example Street, Example City, Example Country</p>
+            <p class="mb-2"><a href="tel:+1514890000" class="hover:text-yellow-400">+923-890-0000</a></p>
+            <p><a href="mailto:calinscompagnies@calins.com"
+                    class="hover:text-yellow-400">nayyar@gmail.com</a></p>
+        </div>
+        <div class="mb-8 md:mb-0">
+            <h3 class="text-lg font-bold mb-4">Example</h3>
+            <ul>
+                <li><a href="#" class="hover:text-yellow-400">About Us</a></li>
+                <li><a href="#" class="hover:text-yellow-400">Delivery Policy</a></li>
+                <li><a href="#" class="hover:text-yellow-400">Contact Us</a></li>
+                <li><a href="#" class="hover:text-yellow-400">Our Stores</a></li>
+                <li><a href="#" class="hover:text-yellow-400">Help</a></li>
+                <li><a href="#" class="hover:text-yellow-400">Work at Hugs</a></li>
+            </ul>
+        </div>
+        <div class="mb-8 md:mb-0">
+            <h3 class="text-lg font-bold mb-4">Example</h3>
+            <ul>
+                <li><a href="#" class="hover:text-yellow-400">My Personal Information</a></li>
+                <li><a href="#" class="hover:text-yellow-400">My Addresses</a></li>
+                <li><a href="#" class="hover:text-yellow-400">My Orders</a></li>
+                <li><a href="#" class="hover:text-yellow-400">My Favorites</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="text-lg font-bold mb-4">Contact Us</h3>
+            <ul class="mb-4">
+                <li><a href="tel:+1514890000" class="hover:text-yellow-400">+0923-14-890-0000</a></li>
+                <li><a href="mailto:calinscompagnies@calins.com" class="hover:text-yellow-400">Send mail</a></li>
+            </ul>
+            <div class="mt-4 icons">
+                <a href="#" class="mr-2"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#" class="mr-2"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="mailto:calinscompagnies@calins.com"><i class="far fa-envelope fa-2x"></i></a>
+            </div>
+        </div>
+    </div>
+    <p class="text-center mt-8">&copy;  2025 - All rights reserved.</p>
+</footer> 
+
+  </body>
+</html>
